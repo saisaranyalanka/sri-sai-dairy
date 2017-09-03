@@ -1,0 +1,68 @@
+html{
+	font-size: 1em;
+}
+
+body{
+	font-size: 0.9em;
+	margin:0;
+}
+
+h1,h2,h3,h4,h5,h6{
+	letter-spacing: 1px;
+}
+h1{
+	font-size: 2em;
+}
+h2{
+	font-size: 1.8em;
+}
+h3{
+	font-size: 1.25em;
+}
+h4{
+	font-size: 1em;
+}
+h5{
+	font-size: 0.75em;
+}
+h6{
+}
+p{
+	font-size: 1.1em;
+}
+
+a{
+	font-size: 1.1em;
+	letter-spacing: 1.5px;
+	font-weight: 100!important;
+	text-decoration: none;
+	/*color:  black;*/
+	font-weight: bold;
+	cursor: pointer;
+}
+a:hover{
+	text-decoration:none;
+	background-color: transparent !important;
+}
+a:visited { 
+}
+
+a{
+	color: white;
+}
+a .active{
+	text-decoration: none !important;
+	background-color: rgba(0,0,0,0) !important;
+}
+a:active{
+	text-decoration: none;
+	background-color: rgba(0,0,0,0.0) !important;
+
+}
+a:visited,a:focus{
+	text-decoration: none !important;
+	background-color: rgba(0,0,0,0.0) !important;
+}
+p{
+	text-align: justify;
+}
